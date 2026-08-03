@@ -259,9 +259,9 @@ dependencies {
     // Pulled from Meta's GitHub Packages registry — needs a read:packages
     // PAT in `github_token=...` (local.properties, gitignored) or the
     // GITHUB_TOKEN env var. See settings.gradle.kts maven block.
-    implementation(libs.mwdat.core)
-    implementation(libs.mwdat.camera)
-    implementation(libs.mwdat.display)
+   // implementation(libs.mwdat.core)
+  //  implementation(libs.mwdat.camera)
+//  implementation(libs.mwdat.display)
 
     // Capability Expansion v3 — TensorFlow Lite for MobileFaceNet
     // (128-D face embeddings). Base runtime gives us Interpreter for
